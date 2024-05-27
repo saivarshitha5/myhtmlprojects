@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .container{
+            margin-top:30px;
+            margin-left:480px ;
+             width:500px;
+             height:320px;
+            background:transparent;
+           backdrop-filter: blur(20px);
+            position: relative;
+            border:2px solid rgba(255,255, 255,.2);
+            box-shadow: 0  0 10px rgba(255,255, 255,.2);
+             padding:30px 40px;
+            color: black;
+            
+        }
+   .container h1{
+        font-size: 36px;
+        text-align: center;
+      }
+      .container .input-box{
+        position: relative;
+         width: 100%;
+         height: 20px;
+         margin:40px 0;
+      }
+      .input-box input{
+
+        width: 200px;
+        height:20px;
+        background: transparent;
+        border:none;
+        outline: none;
+        border: 5px solid rgb(255,255, 255, .2);
+        border-radius: 100px;
+        font-size: 16px;
+        
+        
+      }
+      .registerbtn{
+        width:100%;
+        height:45px;
+        border:none;
+        outline:none;
+        border-radius: 40px;
+        box-shadow:0 0 10px rgba(0,0,0,.1);
+        font-size:16px;
+        font-weight: 600;
+      }
+      body {
+        background-image: url("https://th.bing.com/th/id/OIP.ij2ohyyUH1ptA4E8vxOp1QHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+   </style>
+   
+</head>
+<body background image="">
+    <form>
+        <div class="container">
+          <h1>Register</h1>
+          <p><i>Please fill in this form to create an account.</i></p>
+          <div class="input-box">
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="email" id="email" required><br>
+      </div>
+         <div class="input-box">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email"  required><br>
+      </div>
+      <div class="input-box">
+          <label for="pswd1"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="pswd1"  required>
+      
+    </div>
+        <div class="input-box">
+          <label for="pswd2"><b>Confrim Password</b></label>
+          <input type="password" placeholder="Confrim Password" name="pswd2"  required><br>
+          <br>
+   
+          </div>
+        
+      
+          <button input type="submit" class="registerbtn">Register</button>
+        </div>
+       
+      </form>
+      
+
+
+</body>
+</html>
